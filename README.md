@@ -5,14 +5,13 @@
 `import org.datastore.*;`<br>
 `CRD ds = new CRD(pathToFile);`<br>
 path - The path to file where the data-store is to be stored. This is optional, if the field is left blank a file named<br>
-
+`data-store.txt` is created in the current working directory.<br>
 ### Create<br>
 `create(String Key, JSONObject value, int TTL)`<br>
 This function creates a new key-value pair in the file.<br>
 key - the key for the value, capped at 32Chars<br>
 value - json object that store the content, capped at 16KB<br>
 TTL - time-to-live parameter for the key-value pair's existence. It has a default time of infinity unless specified while creation.<br>
-`data-store.txt` is created in the current working directory.
 ### Read<br>
 `read(String key)`<br>
 This functions returns the corresponding value for the given key if and only if the key-value is present in the file.<br>
