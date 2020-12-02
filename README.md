@@ -1,4 +1,5 @@
 # File Data Store<br>
+This is a <b>Thread-Safe</b> program.<br>
 ## Installation<br>
 `add 'fileDataStore.jar' to your project library`<br>
 This is a <b>Thread-Safe</b> program.<br>
