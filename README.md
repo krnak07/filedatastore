@@ -1,4 +1,4 @@
-# Data Store<br>
+# File Data Store<br>
 ## Installation<br>
 `add 'fileDataStore.jar' to your project library`<br>
 ## Usage
