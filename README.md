@@ -1,6 +1,7 @@
 # File Data Store<br>
 ## Installation<br>
 `add 'fileDataStore.jar' to your project library`<br>
+This is a <b>Thread-Safe</b> program.<br>
 ## Usage
 `import org.datastore.*;`<br>
 `CRD ds = new CRD(pathToFile);`<br>
